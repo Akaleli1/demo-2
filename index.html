@@ -18,7 +18,7 @@
           });
         });
         $(document).ready(function(){
-          $("button").click(function(){
+          $("#animation-button").click(function(){
             $("div").animate({left: '250px'});
           });
         });
@@ -38,7 +38,6 @@
 </head>
 <body>
     <ol>
-        <li>JQuery hide and show button</li>
         <li>Mouse down & up. AJAX file take info from it. </li>
         <li>Look at animation query too</li>
         <li>bootstrap grid structure</li>
@@ -56,18 +55,22 @@
 
     <div id="panel_container">
         <div id="flip">Click to learn more about dark matter! You can slide the panel up and down!</div>
-    <div id="panel"> 
-        <p>What is dark matter?
+        <div id="panel"> 
+            <p>What is dark matter?
             Everything and everyone is made up of “baryonic matter:” protons, neutrons, and electrons. Until about 30 years ago, astronomers thought that the universe followed the same rules—it was entirely baryonic matter. Over the last few decades, however, scientists have found that only 5 percent of the universe is composed of baryonic matter—and they can’t even detect the other 95 percent. Scientists believe that some 25 percent consists of dark matter—but nobody can say definitively what dark matter actually is or what it’s made of yet. Don’t miss these other science mysteries no one has figured out yet.</p>
         </div>
     </div>
     
-    <div>
+    <div id="animation_container">
         <button id = "animation-button">Start Animation</button>
         <div id="animation"></div>
     </div>
     
-
+    <div id="universe_text">
+        <h4>How can gravity be so strong and yet so weak?</h4>
+        <p>Gravity poses a vexing paradox that can be summed up with this question: Why can a mere refrigerator magnet defy an entire planet’s gravitational pull? Some scientists believe that gravity may well be as strong as the other fundamental forces (such as electromagnetism and the force that holds the nucleus together), but its influence is dissipated because it leaks into extra dimensions. That explanation will have to do until they come up something better.</p>
+    </div>
+    
 
 
     

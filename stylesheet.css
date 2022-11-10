@@ -22,12 +22,7 @@ button{
     text-align: center;
 }
 
-#animation{
-    background-color: black;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-}
+
 
 #hide-and-show_container{
     margin-top: 10px;
@@ -38,8 +33,28 @@ button{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 #animation-button{
     margin-top: 10px;
     margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+
+}
+#animation{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    
+}
+
+#universe_text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    text-align: center;
+
 }
