@@ -48,6 +48,7 @@ button{
     margin-bottom: 10px;
     position: relative;
     text-align: center;
+    overflow: hidden;
     
 }
 
@@ -56,5 +57,16 @@ button{
     margin-bottom: 10px;
     position: absolute;
     text-align: center;
+    overflow: hidden;
 
 }
+
+#grid_container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+
+}   
